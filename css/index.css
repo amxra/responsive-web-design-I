@@ -118,12 +118,11 @@ nav ul li a{
 		border: 1px solid blue;
 		display: flex;
 		flex-direction: column-reverse;
-		padding: 20px;
 	}
 
 	.header-image{
 		border-bottom: 1px solid black;
-		width: 90%;
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		margin-bottom: 0;
@@ -132,7 +131,7 @@ nav ul li a{
 	}
 
 	nav{
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -145,4 +144,74 @@ nav ul li a{
 		padding-bottom: 20px
 	}
 
+}
+
+
+/* banner section */
+
+.banner{
+	border: 1px solid red;
+	height: 400px;;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.banner-text{
+	border: 1px solid blue;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-text h1{
+	font-size: 64px;
+	font-style: italic;
+}
+
+.banner-text p{
+	border: 1px solid black;
+	width: 200px;
+	padding: 10px;
+}
+
+.banner-image{
+	border: 1px solid blue;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width:800px){
+	.banner{
+		border: 1px solid blue;
+		justify-content: center;
+	}
+
+	.banner-text{
+		width: 80%;
+	}
+	
+	.banner-image{
+		display: none;
+	}
+}
+
+@media (max-width:500px){
+	.banner{
+		border: 1px solid blue;
+		justify-content: center;
+	}
+	
+	.banner-text{
+		width: 80%;
+	}
+	
+	.banner-image{
+		display: none;
+	}
 }
