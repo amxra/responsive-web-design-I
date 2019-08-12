@@ -206,12 +206,45 @@ nav ul li a{
 		border: 1px solid blue;
 		justify-content: center;
 	}
-	
+
 	.banner-text{
 		width: 80%;
 	}
 	
 	.banner-image{
 		display: none;
+	}
+}
+
+
+/* main */
+
+main{
+	border: 1px solid red;
+}
+
+.main-text{
+	border: 1px solid blue;
+	display: flex;
+}
+
+.main-text-content{
+	border: 1px solid red;
+	margin: 20px;
+}
+
+.main-image{
+	padding: 0 20px;
+	border: 1px solid blue;
+}
+
+.main-image img{
+	width: 100%;
+}
+
+@media (max-width:500px){
+	.main-text{
+		flex-direction: column;
+	
 	}
 }
