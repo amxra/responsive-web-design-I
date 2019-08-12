@@ -1,3 +1,286 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+p{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+	
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+header{
+	background-color: #d3d3d3;
+	position: fixed;
+	top: 0;
+	width: 900px;
+}
+
+nav ul li{
+	display: inline;
+}
+
+
+ul li a{
+	color: gray;
+	text-decoration: none;
+	margin: 15px;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}
+
+
+img.logo{
+	width: 150px;
+}
+
+.banner{
+	height: 300px;
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+}
+
+.banner-text{
+	width: 600px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.banner-text h1{
+	font-size: 48px;
+}
+
+.banner-text p{
+	border: 1px solid black;
+	width: 120px;
+	padding: 10px;
+}
+
+.banner-image{
+
+	height: 200px;
+	width: 200px;
+	margin-top: 50px;
+
+}
+
+.banner-image img{
+	height: 200px;
+}
+
+
+
+
+.main-text{
+	/* width: 445px;
+	margin: 20px 0; */
+	display: flex;
+
+}
+
+.main-text-content{
+
+	padding: 10px;
+	
+}
+
+
+main img{
+	width: 900px;
+}
+
+.spaced{
+	margin-right: 5px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.phone-number{
+	margin: 10px 0;
+}
+
+
+
+/* Service Page */
+
+.service-banner-image{
+	width: 900px;
+}
+
+.services-header-img{
+	width: 900px;
+}
+
+.service-page-banner{
+	width: 900px;
+}
+
+.service-banner-text{
+	margin: 30px 0;
+}
+
+.service-page-main{
+	display: flex;
+	flex-flow: wrap;
+	margin: 30px 0;
+}
+
+.service-page-main-content{
+	width: 425px;
+	margin: 10px;
+	padding: 15px;
+	background-color: beige;
+}
+
+.learn-more-button{
+	border: 1px solid black;
+	width: 140px;
+	padding: 10px 20px;
+	background-color: white;
+	margin: 20px;
+	text-align: center;
+}
+
+hr{
+	color: grey;
+}
+
+.FAQ-section{
+	display: flex;
+	margin: 30px 0;
+}
+
+.FAQ-section ul li{
+	list-style-type: disc;
+	margin: 0 50px;
+}
+
+.FAQ-section p{
+	padding: 15px 0;
+}
+
+
+.site-copyright{
+	text-align: center;
+	margin: 100px 0;
+}
+
+
+
+
+/* Product */
+
+.product-page-banner{
+	width: 900px;
+}
+
+.product-page-banner img{
+	width: 900px;
+}
+
+.product-page-banner-text{
+
+	margin: 20px 0;
+
+}
+
+.product-options{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+
+	margin: 30px 0;
+	justify-content: space-around;
+}
+
+.product-option-content{
+
+	width: 280px;
+	padding: 10px;
+	background-color: navy;
+	color: white;
+	margin: 10px 0;
+}
+
+.learn-more-button {
+	color: navy;
+}
