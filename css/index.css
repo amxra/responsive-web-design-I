@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-	border: 1px solid red;
+	border-bottom: 1px solid grey;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -95,10 +95,10 @@ nav ul li a{
 		margin: 0 auto;
 	}
 	header{
-		border: 1px solid blue;
 		display: flex;
 		flex-direction: column-reverse;
 		padding: 20px;
+		border-bottom: 1px solid white;
 	}
 
 	.header-image{
@@ -115,9 +115,10 @@ nav ul li a{
 		margin: 0 auto;
 	}
 	header{
-		border: 1px solid blue;
 		display: flex;
 		flex-direction: column-reverse;
+		border-bottom: 1px solid white;
+		padding-bottom: 0;
 	}
 
 	.header-image{
@@ -150,15 +151,15 @@ nav ul li a{
 /* banner section */
 
 .banner{
-	border: 1px solid red;
-	height: 400px;;
+	border-bottom: 3px solid black;
+	height: 450px;;
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .banner-text{
-	border: 1px solid blue;
 	width: 50%;
 	text-align: center;
 	display: flex;
@@ -179,7 +180,6 @@ nav ul li a{
 }
 
 .banner-image{
-	border: 1px solid blue;
 	width: 50%;
 	display: flex;
 	align-items: center;
@@ -188,7 +188,6 @@ nav ul li a{
 
 @media (max-width:800px){
 	.banner{
-		border: 1px solid blue;
 		justify-content: center;
 	}
 
@@ -203,7 +202,6 @@ nav ul li a{
 
 @media (max-width:500px){
 	.banner{
-		border: 1px solid blue;
 		justify-content: center;
 	}
 
@@ -220,22 +218,20 @@ nav ul li a{
 /* main */
 
 main{
-	border: 1px solid red;
+	border-bottom: 3px solid black;
+	margin: 0 20px;
 }
 
 .main-text{
-	border: 1px solid blue;
 	display: flex;
 }
 
 .main-text-content{
-	border: 1px solid red;
 	margin: 20px;
 }
 
 .main-image{
 	padding: 0 20px;
-	border: 1px solid blue;
 }
 
 .main-image img{
@@ -245,6 +241,22 @@ main{
 @media (max-width:500px){
 	.main-text{
 		flex-direction: column;
-	
 	}
+}
+
+/*address */
+
+address{
+	padding: 20px;
+	line-height: 20px;
+	margin: 0 20px;
+}
+
+.phone-number{
+	margin: 10px 0;
+}
+
+.copyright{
+	margin: 10px;
+	text-align: center;
 }
