@@ -147,6 +147,23 @@ hr{
 }
 
 
-main{
-	border: 1px solid red;
+.main-text{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	
+}
+
+.main-text-content{
+	width: 700px;
+	padding: 10px;
+}
+
+.middle-img{
+	width: 100%;
+	padding: 0 20px;
+}
+
+address{
+	border: 
 }
