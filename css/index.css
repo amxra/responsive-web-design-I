@@ -79,9 +79,18 @@ header{
 	width: 100%;
 }
 
+nav{
+	width: 80%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
 nav ul li{
 	display: inline;
-	margin-right: 20px;
 }
 
 nav ul li a{
@@ -104,9 +113,15 @@ nav ul li a{
 	.header-image{
 		margin-bottom: 20px;
 	}
-	nav ul li{
-		margin-right: 60px;
+
+	nav{
+		width: 100%;
 	}
+
+	nav ul{
+		width: 100%;
+	}
+
 }
 
 @media (max-width:500px){
@@ -134,6 +149,11 @@ nav ul li a{
 	nav{
 		width: 100%;
 		margin: 0 auto;
+	}
+
+	nav ul{
+		width: 100%;
+		display: block;
 	}
 
 
@@ -213,7 +233,6 @@ nav ul li a{
 		display: none;
 	}
 }
-
 
 /* main */
 
